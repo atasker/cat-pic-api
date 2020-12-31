@@ -1,6 +1,6 @@
 # Setup Guide
 
-[For API Docs](#api-docs)
+[API Docs](#api-docs)
 
 ### Clone the repo:
 
@@ -22,10 +22,6 @@ rails db:create db:migrate
 
 ### Your local environment is now setup to use the API on your localhost.
 
-
----
-
-
 # API Docs
 
 ### ENDPOINTS
@@ -40,7 +36,7 @@ curl --location --request GET 'localhost:3000/catpics'
 
 **Response:**
 
-> Returns all cat pics
+> Returns all cat pics.
 > Status code: 200
 
 ```
@@ -84,7 +80,7 @@ curl --location --request GET 'localhost:3000/catpics/1'
 
 **Response:**
 
-> Returns specific cat pic by id
+> Returns specific cat pic by id.
 > Status code: 200
 
 ```
@@ -111,11 +107,11 @@ curl --location --request PUT 'localhost:3000/catpics/1' \
 
 **Response**
 
-> Updates specified cat pic
+> Updates specified cat pic.
 > Status code: 204
 
 ```
-Status code: 204 No Content
+204 No Content
 ```
 
 ---
@@ -130,11 +126,11 @@ curl --location --request DELETE 'localhost:3000/catpics/1'
 
 **Response**
 
-> Deletes specified cat pic
+> Deletes specified cat pic.
 > Status code: 204
 
 ```
-Status code: 204 No Content
+204 No Content
 ```
 
 ---
@@ -150,7 +146,7 @@ curl --location --request POST 'localhost:3000/catpics' \
 
 **Response**
 
-> Uploads cat pic
+> Uploads cat pic.
 > Status code: 201
 
 ```
