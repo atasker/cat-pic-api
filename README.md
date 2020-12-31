@@ -26,7 +26,7 @@ rails db:create db:migrate
 
 ### ENDPOINTS
 
-#### GET /catpics
+#### - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) GET /catpics
 
 **Curl**
 
@@ -70,7 +70,7 @@ curl --location --request GET 'localhost:3000/catpics'
 
 ---
 
-#### GET /catpics/:id
+#### - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) GET /catpics/:id
 
 **Curl**
 
@@ -96,7 +96,7 @@ curl --location --request GET 'localhost:3000/catpics/1'
 
 ---
 
-#### PUT /catpics/:id
+#### - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) PUT /catpics/:id
 
 **Curl**
 
@@ -116,7 +116,7 @@ curl --location --request PUT 'localhost:3000/catpics/1' \
 
 ---
 
-#### DELETE /catpics/:id
+#### - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) DELETE /catpics/:id
 
 **Curl**
 
@@ -135,7 +135,7 @@ curl --location --request DELETE 'localhost:3000/catpics/1'
 
 ---
 
-#### POST /catpics
+#### - ![#ffff00](https://via.placeholder.com/15/ffff00/000000?text=+) POST /catpics
 
 **Curl**
 
