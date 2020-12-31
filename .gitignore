@@ -1,0 +1,6 @@
+.DS_Store
+.rspec
+/log
+/tmp
+/public
+/db/*.sqlite3
