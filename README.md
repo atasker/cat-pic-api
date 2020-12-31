@@ -2,19 +2,21 @@
 
 [API Docs](#api-docs)
 
+[Testing](#testing)
+
 ### Clone the repo:
 
 ```
 git clone https://github.com/atasker/cat-pic-api.git
 ```
 
-### cd into new directory
+### cd into new directory:
 
 ```
 cd cat-pic-api
 ```
 
-### Create database and run migrations
+### Create database and run migrations:
 
 ```
 rails db:create db:migrate
@@ -26,7 +28,7 @@ rails db:create db:migrate
 
 **Note:** *Make sure to start your local server with* `rails server`
 
-### ENDPOINTS
+### ENDPOINTS:
 
 #### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) GET /catpics
 
@@ -161,3 +163,17 @@ curl --location --request POST 'localhost:3000/catpics' \
     "updated_at": "2020-12-31T19:28:28.301Z"
 }
 ```
+
+# Testing
+
+#### Files related to testing can be found in the `/spec` folder.
+#### The tests can be found in `/spec/requests/catpics_spec.rb`.
+#### `/spec/rails_helper.rb` and `spec/spec_helper.rb` contain helper methods and configuration settings.
+
+### To run tests locally:
+
+```
+bundle exec rspec
+```
+
+![passing tests](https://i.ibb.co/nkZyrNT/Screen-Shot-2020-12-31-at-4-12-22-PM.png)
