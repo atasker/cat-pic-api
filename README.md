@@ -24,6 +24,8 @@ rails db:create db:migrate
 
 # API Docs
 
+**Note:** *Make sure to start your local server with* `rails server`
+
 ### ENDPOINTS
 
 #### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) GET /catpics
